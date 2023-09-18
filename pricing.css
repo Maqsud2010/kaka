@@ -55,12 +55,20 @@ main .container {
   width: 1240px;
   margin: 0 auto;
 }
+main .container .our_pricing {
+  margin-top: 60px;
+}
 main .container .our_pricing .plan h6 {
   font-size: 48px;
   text-align: center;
 }
 main .container .our_pricing .plan p {
   text-align: center;
+}
+main .container .our_pricing .pricing_block {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
 }
 main .container .our_pricing .pricing_block .block1 {
   background-color: #2a2e9b;
@@ -69,7 +77,16 @@ main .container .our_pricing .pricing_block .block1 {
   height: 745px;
 }
 main .container .our_pricing .pricing_block .block1 .block_info {
+  padding-top: 100px;
   margin: 70px;
+}
+main .container .our_pricing .pricing_block .block1 .block_info button {
+  cursor: pointer;
+  margin-top: 150px;
+  width: 254px;
+  height: 64px;
+  border-radius: 41px;
+  background-color: chocolate;
 }
 main .container .our_pricing .pricing_block .block1 .block_info .div {
   display: flex;
@@ -105,6 +122,15 @@ main .container .our_pricing .pricing_block .block2 {
 }
 main .container .our_pricing .pricing_block .block2 .block_info {
   margin: 80px;
+  padding-top: 100px;
+}
+main .container .our_pricing .pricing_block .block2 .block_info button {
+  margin-top: 150px;
+  cursor: pointer;
+  width: 254px;
+  height: 64px;
+  border-radius: 41px;
+  background: #FCD980;
 }
 main .container .our_pricing .pricing_block .block2 .block_info .div {
   display: flex;
@@ -124,4 +150,121 @@ main .container .our_pricing .pricing_block .block2 .block_info .play div {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+main .container .our_pricing .pricing_block .block3 {
+  color: #ffffff;
+  background: #1C1E53;
+  border-radius: 20px;
+  width: 406px;
+  height: 745px;
+}
+main .container .our_pricing .pricing_block .block3 .block_info {
+  margin: 80px;
+  padding-top: 100px;
+}
+main .container .our_pricing .pricing_block .block3 .block_info button {
+  margin-top: 150px;
+  cursor: pointer;
+  width: 254px;
+  height: 64px;
+  border-radius: 41px;
+  background: #FCD980;
+}
+main .container .our_pricing .pricing_block .block3 .block_info .div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .container .our_pricing .pricing_block .block3 .block_info .land {
+  margin-top: 10px;
+}
+main .container .our_pricing .pricing_block .block3 .block_info .play {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .container .our_pricing .pricing_block .block3 .block_info .play div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main .container .FAQ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+main .container .FAQ .heading h3 {
+  color: blue;
+  margin-top: 20px;
+}
+main .container .FAQ p {
+  font-size: 24px;
+  color: blue;
+}
+main .container .FAQ .question div {
+  margin-top: 30px;
+}
+main .container .FAQ .one {
+  display: flex;
+  gap: 50px;
+}
+main .container .FAQ .two {
+  display: flex;
+  gap: 50px;
+}
+main .container .FAQ .three {
+  display: flex;
+  gap: 50px;
+}
+main .container .FAQ .four {
+  display: flex;
+  gap: 50px;
+}
+main .container .FAQ .five {
+  display: flex;
+  gap: 50px;
+}
+
+footer {
+  width: 100%;
+  height: 389px;
+  background: #1C1E53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer_block {
+  width: 1056;
+  height: 100%;
+  display: flex;
+}
+footer .footer_block .left_block {
+  color: #F4F6FC;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-direction: column;
+}
+footer .footer_block .left_block .left_info h2 {
+  margin-bottom: 30px;
+}
+footer .footer_block .left_block .contact {
+  color: #1B1C2B;
+  width: 517px;
+  height: 95px;
+  background: #FCD980;
+  align-self: flex-end;
+  align-content: flex-end;
+}
+footer .footer_block .right_block {
+  color: #F4F6FC;
+  width: 100%;
+}
+footer .footer_block .right_block div {
+  width: 100%;
+  height: 100px;
 }/*# sourceMappingURL=pricing.css.map */

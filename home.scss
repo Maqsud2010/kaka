@@ -95,7 +95,7 @@ main{
             display: flex;
             gap: 400px;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-evenly;
         }
         .block{
             display: grid;
@@ -130,9 +130,9 @@ main{
         }
     }
     .icon_block{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-       margin-left: 150px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-left: 180px;
        
        img{
         margin: 10px 0px;

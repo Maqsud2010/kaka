@@ -90,7 +90,7 @@ main .main_block1 .we_work {
   display: flex;
   gap: 400px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 main .main_block1 .block {
   display: grid;
@@ -123,7 +123,7 @@ main .features .text2 h1 {
 main .icon_block {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 150px;
+  margin-left: 180px;
 }
 main .icon_block img {
   margin: 10px 0px;
