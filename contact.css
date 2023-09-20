@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containr {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 11vh;
+  background: #1C1E53;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header .container {
+  width: 1240px;
+  margin: 0 auto;
+}
+header .container .header_block {
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container button {
+  background: transparent;
+  color: #F4F6FC;
+  border-radius: 60px;
+  border: 2px solid #2a2e9b;
+  width: 185px;
+  height: 60px;
+  cursor: pointer;
+}
+header .container .menu_block {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header .container ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+header .container ul li {
+  font-size: 16px;
+}
+header .container ul a {
+  text-decoration: none;
+  color: #BBBBCB;
+}
+
+main .container {
+  margin: 0 auto;
+  width: 1240px;
+}
+main .container .contact {
+  margin-top: 100px;
+  text-align: center;
+}
+main .container .contact h1 {
+  font-size: 48px;
+}
+main .container .contact p {
+  font-size: 16px;
+}
+main .container .contact_block1 {
+  width: 1075px;
+  height: auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+main .container .contact_block1 input {
+  width: 438px;
+  padding: 10px;
+}
+main .container textarea {
+  width: 975px;
+}/*# sourceMappingURL=contact.css.map */

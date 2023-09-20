@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +12,12 @@
 
 header {
   width: 100%;
-  height: 15vh;
+  height: 11vh;
   background: #1C1E53;
+}
+header a {
+  text-decoration: none;
+  color: white;
 }
 header .container {
   width: 1240px;
@@ -32,6 +37,9 @@ header .container button {
   width: 185px;
   height: 60px;
   cursor: pointer;
+}
+header .container button a {
+  list-style: none;
 }
 header .container .menu_block {
   display: flex;
