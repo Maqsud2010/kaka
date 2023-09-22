@@ -214,7 +214,7 @@ main .main_footer1 .login div {
 main .main_footer1 .gmail {
   width: 656px;
   height: 691px;
-  background: url(Background\ \(1\).png);
+  background: url(../img/Background\ \(1\).png);
   display: flex;
   align-items: center;
   justify-content: center;

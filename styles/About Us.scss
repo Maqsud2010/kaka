@@ -76,14 +76,18 @@ main{
         .who_we{
             margin-top: 150px;
             .we_are{
+                margin-bottom:20px ;
             display: flex;
             align-items: center;
             justify-content: space-evenly;
+            h1{
+                margin-bottom: 20px;
+            }
             }
             .we_img{
                 img{
                     width: 1345px;
-                
+                    margin-top: 20px;
                 }
             }
             

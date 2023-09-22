@@ -82,10 +82,67 @@ main{
             }
            
         }
-       
+       .massage{
+        margin-left: 50px;
+       }
         textarea{
-            
+            margin-left: 50px;
             width: 975px;
         }
+        .input5{
+            button{
+                color:white;
+                width: 254px;
+                height: 64px ;
+                background-color: darkblue;
+                border-radius: 41px;
+                margin-left: 50px;
+            }
+        }
+}
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 389px;
+    background: #1C1E53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+.footer_block{
+    width: 1056;
+height: 100%;
+display: flex;
+.left_block{
+    color: #F4F6FC;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+    .left_info{
+        h2{
+            margin-bottom: 30px;
+        }
+    }
+    .contact{
+        color: #1B1C2B;
+        width: 517px;
+        height: 95px;
+        background: #FCD980;
+        align-self: flex-end;
+        align-content: flex-end;
+    }
+}
+.right_block{
+    color: #F4F6FC;
+    width: 100%;
+    div{
+        width: 100%;
+        height: 100px;
+    }
+}
 }
 }

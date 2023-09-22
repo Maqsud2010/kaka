@@ -74,12 +74,17 @@ main .container .who_we {
   margin-top: 150px;
 }
 main .container .who_we .we_are {
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
+main .container .who_we .we_are h1 {
+  margin-bottom: 20px;
+}
 main .container .who_we .we_img img {
   width: 1345px;
+  margin-top: 20px;
 }
 main .container .we_follow {
   margin-top: 200px;
